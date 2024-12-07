@@ -1,0 +1,92 @@
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 106px;
+}
+
+
+
+.content {
+    h5 {
+       
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+       width: 740px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 108%;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    p {
+
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 150%;
+        color: #000;
+        margin-bottom: 20px;
+
+    }
+
+    .button-content {
+        display: flex;
+        gap: 30px;
+        
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 142px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #fff;
+        padding: 10px 10px;
+        color: white;
+        box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(90deg, #25d366 0%, #4caf50 100%);
+        &:hover{
+            opacity: 0.8;
+  
+          }
+          &:active{
+            opacity: 0.6;
+        }
+        
+    }
+
+    .button2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(90deg, #08c 0%, #0af 100%);
+        padding: 10px 10px;
+        width: 142px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        &:hover{
+            opacity: 0.8;
+  
+          }
+          &:active{
+            opacity: 0.6;
+        }
+        
+
+    }
+    
+
+}
